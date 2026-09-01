@@ -38,7 +38,7 @@ if (isset($_POST['trocar'])) {
         $upd = $conexao->prepare("UPDATE tarabalhohugo SET senha = ? WHERE emailcelularcpf = ?");
         $upd->bind_param("ss", $novaHash, $email);
         if ($upd->execute() && $upd->affected_rows > 0) {
-            $mensagem = "<p class='sucesso'>Senha alterada com sucesso!>";header("Location: Login.php");
+            $mensagem = "<p class='sucesso'>Senha alterada com sucesso!>";header("Location: Login vs1.0.php");
         } else {
             $mensagem = "<p class='erro'>Erro ao alterar senha: " . $upd->error . "</p>";
         }

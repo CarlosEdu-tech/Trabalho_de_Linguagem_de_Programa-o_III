@@ -121,7 +121,7 @@ if (isset($_POST['verificar'])) {
         <input name="email" type="email" placeholder="exemplo@email.com" autocomplete="off"
             value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>" required>
         <button type="submit" name="verificar">Verificar</button>
-        <a href="Login.php">Na verdade não tenho conta :(</a>
+        <a href="Login vs1.0.php">Na verdade não tenho conta :(</a>
     </form>
 </div>
 </body>

@@ -108,8 +108,8 @@ button:hover {
         <label>Senha</label>
         <input name="senha" placeholder="Senh@123" type="password" required>
         <button type="submit" name="entrar">Entrar</button>
-    <a href="Cadastro.php">NÃO TENHO CONTA</a><br>
-        <a href="Recuperaçao.php">Esqueci minha senha</a><br>
+    <a href="Cadastro vs1.0.php">NÃO TENHO CONTA</a><br>
+        <a href="confirmacao_do_email.php">Esqueci minha senha</a><br>
     </form>
 </div>
 
